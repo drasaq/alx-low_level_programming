@@ -1,5 +1,5 @@
 #include <stdio.h>
-/***
+/**
 * main - Entry point
 * Description: prints the alphabet in lowercase,
 * followed by a new line, except q and e
