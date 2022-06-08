@@ -1,21 +1,17 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- *  * print_alphabet - Function that prints alphabets
- *   *
- *    * Descripion: to print alphabets
- *     * Return: Always 0
+ *  *  * print_alphabet - check the code
+ *   *   *
+ *    *    * Return: Always 0.
  */
-
 void print_alphabet(void)
 {
-int count;
+int i;
 
-for (count = 'a'; count <= 'z'; count++)
+for (i = 'a'; i <= 'z'; i++)
 {
-_putchar(count);
-}
+_putchar(i);
+									}
 _putchar('\n');
-
 }
