@@ -1,25 +1,22 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- *  * print_alphabet_x10 - This program prints alphabets 10 times
+ *  * print_alphabet_x10 - Prints alohabet 10 times
  *   *
- *    * Description: To print alphabets
- *     * Return: Always void
+ *    * Return: 0 success
  */
 
 void print_alphabet_x10(void)
 {
+int j;
+int i;
 
-int time, count;
-
-for (time = 1; time <= 10; time++)
+for (i = 0; i < 10; i++)
 {
-for (count = 97; count <= 122; count++)
+for (j = 'a'; j <= 'z'; j++)
 {
-putchar(count);
+															_putchar(j);
+															}
+_putchar('\n');
 }
-putchar('\n');
-}
-
 }
